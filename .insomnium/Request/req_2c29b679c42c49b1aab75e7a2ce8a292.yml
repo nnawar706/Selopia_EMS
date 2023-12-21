@@ -1,0 +1,42 @@
+_id: req_2c29b679c42c49b1aab75e7a2ce8a292
+type: Request
+parentId: fld_f2e97c0f31cf4673aecdd01f3d332b46
+modified: 1703073711632
+created: 1703072597677
+url: "{{ _.host }}/expenses/update/2"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"event_id": 2,
+    	"expense_category_id": 2,
+    	"title": "Ludo",
+    	"unit_cost": 205,
+    	"quantity": 1,
+    	"bearers":[
+    		{"paid_by_id": 6, "amount": 195, "is_sponsored": 0},
+    		{"paid_by_id": 8, "amount": 10, "is_sponsored": 1}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702991281253
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

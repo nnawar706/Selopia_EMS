@@ -1,0 +1,28 @@
+_id: req_6e17c4a90528442b8d4f0322169ab6c0
+type: Request
+parentId: fld_f25a9ee766a8472b9960546b1985ee5e
+modified: 1702982539565
+created: 1702977773876
+url: "{{ _.host }}/event_categories/all"
+name: get-all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+  disabled: false
+metaSortKey: -1702977773876
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

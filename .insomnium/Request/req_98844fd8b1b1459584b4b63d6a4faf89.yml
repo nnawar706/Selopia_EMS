@@ -1,0 +1,27 @@
+_id: req_98844fd8b1b1459584b4b63d6a4faf89
+type: Request
+parentId: fld_837612004e144d42b0367d2065310576
+modified: 1702986464389
+created: 1702975505488
+url: "{{ _.host }}/logout"
+name: logout
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702975505488
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

@@ -1,0 +1,32 @@
+_id: req_8c3c10bfe8af4f76b89eb80949bbfc0c
+type: Request
+parentId: fld_837612004e144d42b0367d2065310576
+modified: 1702992699063
+created: 1702975492478
+url: "{{ _.host }}/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"phone_no": "01700000000",
+    	"password": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication: {}
+metaSortKey: -1702975492478
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

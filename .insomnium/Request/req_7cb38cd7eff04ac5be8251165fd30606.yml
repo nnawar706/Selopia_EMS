@@ -1,0 +1,27 @@
+_id: req_7cb38cd7eff04ac5be8251165fd30606
+type: Request
+parentId: fld_837612004e144d42b0367d2065310576
+modified: 1702979973478
+created: 1702979952672
+url: "{{ _.host }}/profile"
+name: profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702979952672
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

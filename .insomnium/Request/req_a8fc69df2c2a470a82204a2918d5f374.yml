@@ -1,0 +1,35 @@
+_id: req_a8fc69df2c2a470a82204a2918d5f374
+type: Request
+parentId: fld_1afe94ccf5884191b7046517a28cee8b
+modified: 1703071905647
+created: 1703071819989
+url: "{{ _.host }}/events/add_participants"
+name: add-participants
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 2,
+    	"users": [2]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702988821307.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

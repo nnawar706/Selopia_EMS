@@ -1,0 +1,31 @@
+_id: req_f219328121a344029a7ffd86c11dab30
+type: Request
+parentId: fld_f2e97c0f31cf4673aecdd01f3d332b46
+modified: 1703139635515
+created: 1703139617877
+url: "{{ _.host }}/expenses/log/2"
+name: expense-log
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702990563052.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

@@ -1,0 +1,65 @@
+_id: req_fa70abd4001b44dda8418e26126a103a
+type: Request
+parentId: fld_a52be1b2b64a4faab0f2f81fc074ecf8
+modified: 1703063658954
+created: 1702987115399
+url: "{{ _.host }}/users/create"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_f9b7842582194a85869fac60fc09fc1a
+      name: designation_id
+      value: "3"
+      description: ""
+    - id: pair_f7f2a044f3e3417c95bf6aa173ff7137
+      name: name
+      value: Miti
+      description: ""
+    - id: pair_b52328012f5e4e9fbe4acc4217ddd9ce
+      name: phone_no
+      value: "01723437917"
+      description: ""
+    - id: pair_96a466b76252453fb4f879e4b84780f1
+      name: birthday
+      value: 03-08
+      description: ""
+    - id: pair_f105b74391d043129b672e3c49c32d61
+      name: password
+      value: "123456"
+      description: ""
+    - id: pair_d0b8708b03404490b60f178c1fb42697
+      name: password_confirmation
+      value: "123456"
+      description: ""
+    - id: pair_358d9586baaa47968e0a55a5268fc189
+      name: member_since
+      value: 2022-01-01
+      description: ""
+    - id: pair_8f0de9857798425ebcb027e42b400ef8
+      name: photo
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/selopia/Downloads/Screenshot from 2023-06-14 11-11-50.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702987115399
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

@@ -1,0 +1,17 @@
+_id: env_140b23a3ba194e818f3f34ad78119b35
+type: Environment
+parentId: env_ab1b41d14a24e01cc07cf6ed3955f3070fa0635d
+modified: 1702976245764
+created: 1702975383906
+name: Development
+data:
+  host: 192.168.68.124:8002/api
+  token: "{% response 'body', 'req_8c3c10bfe8af4f76b89eb80949bbfc0c',
+    'b64::JC5kYXRhLmFjY2Vzc190b2tlbg==::46b', 'never', 60 %}"
+dataPropertyOrder:
+  "&":
+    - host
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1702975383907

@@ -1,0 +1,43 @@
+_id: req_9bfc1439f319419ea1298518f86c926e
+type: Request
+parentId: fld_f25a9ee766a8472b9960546b1985ee5e
+modified: 1703065285202
+created: 1702978999994
+url: "{{ _.host }}/event_categories/create"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_fd81f7fa3f3b4f0daa99b48db9378f36
+      name: name
+      value: Random Celebration
+      description: ""
+    - id: pair_3d8c2ba65643405e991fd4b7f53edc8c
+      name: icon
+      value: ""
+      description: ""
+      disabled: false
+      type: file
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-12-19
+        10-58-56.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702976644032.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

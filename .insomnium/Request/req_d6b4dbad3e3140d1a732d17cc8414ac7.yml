@@ -1,0 +1,46 @@
+_id: req_d6b4dbad3e3140d1a732d17cc8414ac7
+type: Request
+parentId: fld_1afe94ccf5884191b7046517a28cee8b
+modified: 1703056724118
+created: 1702989844852
+url: "{{ _.host }}/events/create"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"event_category_id": 5,
+    	"lead_user_id": 1,
+    	"title": "New Year Party",
+    	"detail": "Event description",
+    	"from_date": "2024-01-01",
+    	"participants": [1,2,3,4,5,6,8,11,12,13],
+    	"designation_gradings":[
+    		{"designation_id": 1, "amount": 1500},
+    		{"designation_id": 2, "amount": 1200},
+    		{"designation_id": 3, "amount": 1000},
+    		{"designation_id": 4, "amount": 700},
+    		{"designation_id": 5, "amount": 500}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702989844852
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

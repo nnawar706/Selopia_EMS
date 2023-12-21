@@ -1,0 +1,36 @@
+_id: req_c26eeb342f8e4e5eb5c2a9b85a9c3876
+type: Request
+parentId: fld_837612004e144d42b0367d2065310576
+modified: 1703134862837
+created: 1703133836921
+url: "{{ _.host }}/change_password"
+name: change-password
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"current_password": "123456",
+    	"password": "123456",
+    	"password_confirmation": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702676366768
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

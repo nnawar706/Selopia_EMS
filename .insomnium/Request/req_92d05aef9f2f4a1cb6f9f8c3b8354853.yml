@@ -1,0 +1,45 @@
+_id: req_92d05aef9f2f4a1cb6f9f8c3b8354853
+type: Request
+parentId: fld_1afe94ccf5884191b7046517a28cee8b
+modified: 1703072314251
+created: 1703069309814
+url: "{{ _.host }}/events/update/2"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"event_category_id": 5,
+    	"lead_user_id": 1,
+    	"title": "New Year Party",
+    	"detail": "Event description",
+    	"from_date": "2024-01-01",
+    	"designation_gradings":[
+    		{"designation_id": 1, "amount": 1200},
+    		{"designation_id": 2, "amount": 1000},
+    		{"designation_id": 3, "amount": 900},
+    		{"designation_id": 4, "amount": 500},
+    		{"designation_id": 5, "amount": 200}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702989162488.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

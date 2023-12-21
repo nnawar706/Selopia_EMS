@@ -1,0 +1,27 @@
+_id: req_d4d39ace3d8247bf9cb43d081739536a
+type: Request
+parentId: fld_a52be1b2b64a4faab0f2f81fc074ecf8
+modified: 1703058076196
+created: 1703058066520
+url: "{{ _.host }}/users/change_status/4"
+name: change-status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702985075004.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

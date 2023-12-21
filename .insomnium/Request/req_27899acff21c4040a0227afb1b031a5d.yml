@@ -1,7 +1,7 @@
 _id: req_27899acff21c4040a0227afb1b031a5d
 type: Request
 parentId: fld_f2e97c0f31cf4673aecdd01f3d332b46
-modified: 1703069449240
+modified: 1703143257833
 created: 1702992717654
 url: "{{ _.host }}/expenses/create"
 name: store
@@ -17,7 +17,8 @@ body:
     	"unit_cost": 210,
     	"quantity": 1,
     	"bearers":[
-    		{"paid_by_id": 6, "amount": 210, "is_sponsored": 0}
+    		{"user_id": 6, "paid_by_id": 6, "amount": 150, "is_sponsored": 0},
+    		{"user_id": 3, "paid_by_id": 6, "amount": 60, "is_sponsored": 0}
     	]
     }
 parameters: []

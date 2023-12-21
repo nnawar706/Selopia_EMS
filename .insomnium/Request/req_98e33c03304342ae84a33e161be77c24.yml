@@ -1,18 +1,15 @@
-_id: req_a8fc69df2c2a470a82204a2918d5f374
+_id: req_98e33c03304342ae84a33e161be77c24
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703147128685
-created: 1703071819989
-url: "{{ _.host }}/events/add_participants/2"
-name: add-participants
+modified: 1703146930922
+created: 1703146479907
+url: "{{ _.host }}/events/delete/3"
+name: delete
 description: ""
-method: POST
+method: DELETE
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"users": [2]
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -23,7 +20,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988821307.125
+metaSortKey: -1702988138943.875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

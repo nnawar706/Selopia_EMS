@@ -1,9 +1,9 @@
 _id: req_2c29b679c42c49b1aab75e7a2ce8a292
 type: Request
 parentId: fld_f2e97c0f31cf4673aecdd01f3d332b46
-modified: 1703073711632
+modified: 1703145744042
 created: 1703072597677
-url: "{{ _.host }}/expenses/update/2"
+url: "{{ _.host }}/expenses/update/1"
 name: update
 description: ""
 method: PUT
@@ -14,11 +14,12 @@ body:
     	"event_id": 2,
     	"expense_category_id": 2,
     	"title": "Ludo",
-    	"unit_cost": 205,
+    	"unit_cost": 210,
     	"quantity": 1,
+    	"paid_at": "2023-12-20 12:00",
     	"bearers":[
-    		{"paid_by_id": 6, "amount": 195, "is_sponsored": 0},
-    		{"paid_by_id": 8, "amount": 10, "is_sponsored": 1}
+    		{"user_id": 6, "paid_by_id": null, "amount": 160, "is_sponsored": 0},
+    		{"user_id": 3, "paid_by_id": 6, "amount": 50, "is_sponsored": 0}
     	]
     }
 parameters: []

@@ -1,17 +1,17 @@
-_id: req_a8fc69df2c2a470a82204a2918d5f374
+_id: req_35925bcb17fa4a5aafeb365f9e8439dc
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703147128685
-created: 1703071819989
-url: "{{ _.host }}/events/add_participants/2"
-name: add-participants
+modified: 1703148623986
+created: 1703147144025
+url: "{{ _.host }}/events/remove_participants/2"
+name: remove-participants
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    	"users": [2]
+    	"user_id": 1
     }
 parameters: []
 headers:
@@ -23,7 +23,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988821307.125
+metaSortKey: -1702988650716.3125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

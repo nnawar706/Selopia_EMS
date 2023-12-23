@@ -1,9 +1,9 @@
 _id: req_b9af441effb44a39aad7878630379f07
 type: Request
 parentId: fld_837612004e144d42b0367d2065310576
-modified: 1702975520016
+modified: 1703328530016
 created: 1702975514189
-url: ""
+url: "{{ _.host }}/refresh"
 name: refresh
 description: ""
 method: GET
@@ -12,7 +12,10 @@ parameters: []
 headers:
   - name: User-Agent
     value: insomnium/0.2.3-a
-authentication: {}
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
 metaSortKey: -1702975514189
 isPrivate: false
 settingStoreCookies: true

@@ -1,10 +1,10 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_9c6d41a4d05b44cf858ec689e567a7c7
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703338293463
-created: 1703045958641
-url: "{{ _.host }}/events/get/6"
-name: read
+modified: 1703150940100
+created: 1703150933072
+url: "{{ _.host }}/events/statuses/all"
+name: status-get-all
 description: ""
 method: GET
 body:
@@ -20,7 +20,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+metaSortKey: -1702987456580.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

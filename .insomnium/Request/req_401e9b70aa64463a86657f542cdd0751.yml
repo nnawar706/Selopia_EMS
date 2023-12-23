@@ -1,7 +1,7 @@
 _id: req_401e9b70aa64463a86657f542cdd0751
 type: Request
 parentId: fld_f25a9ee766a8472b9960546b1985ee5e
-modified: 1702980649309
+modified: 1703326109717
 created: 1702980641016
 url: "{{ _.host }}/event_categories/update/3"
 name: update
@@ -12,13 +12,13 @@ body:
   params:
     - id: pair_fd81f7fa3f3b4f0daa99b48db9378f36
       name: name
-      value: Birthday Celebration
+      value: Birthday Celebration!!
       description: ""
     - id: pair_3d8c2ba65643405e991fd4b7f53edc8c
       name: icon
       value: ""
       description: ""
-      disabled: false
+      disabled: true
       type: file
       fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-12-19
         10-58-56.png

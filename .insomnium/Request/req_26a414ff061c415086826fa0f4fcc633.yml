@@ -1,12 +1,12 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_26a414ff061c415086826fa0f4fcc633
 type: Request
-parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703338293463
-created: 1703045958641
-url: "{{ _.host }}/events/get/6"
-name: read
+parentId: fld_f2e97c0f31cf4673aecdd01f3d332b46
+modified: 1703305809397
+created: 1703305792217
+url: "{{ _.host }}/expenses/delete/1"
+name: delete
 description: ""
-method: GET
+method: DELETE
 body:
   mimeType: application/json
   text: ""
@@ -20,7 +20,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+metaSortKey: -1702990203952.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

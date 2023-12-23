@@ -1,26 +1,22 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_8d71a077e32a4127bb80c113dc57f029
 type: Request
-parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703338293463
-created: 1703045958641
-url: "{{ _.host }}/events/get/6"
-name: read
+parentId: fld_837612004e144d42b0367d2065310576
+modified: 1703325228061
+created: 1703325219162
+url: "{{ _.host }}/activity_logs/all"
+name: activity-log
 description: ""
 method: GET
-body:
-  mimeType: application/json
-  text: ""
+body: {}
 parameters: []
 headers:
-  - name: Content-Type
-    value: application/json
   - name: User-Agent
     value: insomnium/0.2.3-a
 authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+metaSortKey: -1702978863274
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

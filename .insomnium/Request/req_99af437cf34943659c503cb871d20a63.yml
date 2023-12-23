@@ -1,15 +1,18 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_99af437cf34943659c503cb871d20a63
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703338293463
-created: 1703045958641
-url: "{{ _.host }}/events/get/6"
-name: read
+modified: 1703318788527
+created: 1703318733877
+url: "{{ _.host }}/events/approve_lock"
+name: approve-lock
 description: ""
-method: GET
+method: PUT
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"event_id": 4
+    }
 parameters: []
 headers:
   - name: Content-Type
@@ -20,7 +23,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+metaSortKey: -1702988991897.9375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

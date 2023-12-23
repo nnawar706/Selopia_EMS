@@ -1,15 +1,18 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_52ad2ec482b14b65bcb791070fcb71ae
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703338293463
-created: 1703045958641
-url: "{{ _.host }}/events/get/6"
-name: read
+modified: 1703334274656
+created: 1703320975157
+url: "{{ _.host }}/events/change_status/4"
+name: change-status
 description: ""
-method: GET
+method: PUT
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"event_status_id": 2
+    }
 parameters: []
 headers:
   - name: Content-Type
@@ -20,7 +23,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+metaSortKey: -1702988906602.5312
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

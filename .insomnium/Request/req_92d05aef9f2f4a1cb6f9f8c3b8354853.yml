@@ -1,9 +1,9 @@
 _id: req_92d05aef9f2f4a1cb6f9f8c3b8354853
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703072314251
+modified: 1703334141708
 created: 1703069309814
-url: "{{ _.host }}/events/update/2"
+url: "{{ _.host }}/events/update/4"
 name: update
 description: ""
 method: PUT
@@ -16,12 +16,13 @@ body:
     	"title": "New Year Party",
     	"detail": "Event description",
     	"from_date": "2024-01-01",
+    	"event_status_id": 1,
     	"designation_gradings":[
-    		{"designation_id": 1, "amount": 1200},
-    		{"designation_id": 2, "amount": 1000},
-    		{"designation_id": 3, "amount": 900},
-    		{"designation_id": 4, "amount": 500},
-    		{"designation_id": 5, "amount": 200}
+    		{"designation_id": 1, "amount": 200},
+    		{"designation_id": 2, "amount": 100},
+    		{"designation_id": 3, "amount": 80},
+    		{"designation_id": 4, "amount": 50},
+    		{"designation_id": 5, "amount": 20}
     	]
     }
 parameters: []

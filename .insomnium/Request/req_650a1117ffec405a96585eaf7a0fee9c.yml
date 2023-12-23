@@ -1,15 +1,19 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_650a1117ffec405a96585eaf7a0fee9c
 type: Request
-parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703338293463
-created: 1703045958641
-url: "{{ _.host }}/events/get/6"
-name: read
+parentId: fld_5faf0a3668bb47f0a25510665b92090f
+modified: 1703338773307
+created: 1703331485433
+url: "{{ _.host }}/treasurers/create"
+name: create
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"user_id": 5,
+    	"events": [4,6]
+    }
 parameters: []
 headers:
   - name: Content-Type
@@ -20,7 +24,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+metaSortKey: -1703331485433
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

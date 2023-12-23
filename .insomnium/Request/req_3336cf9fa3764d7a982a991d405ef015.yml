@@ -1,26 +1,19 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_3336cf9fa3764d7a982a991d405ef015
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703338293463
-created: 1703045958641
-url: "{{ _.host }}/events/get/6"
-name: read
+modified: 1703332578205
+created: 1703332570472
+url: "{{ _.host }}/test"
+name: New Request
 description: ""
 method: GET
-body:
-  mimeType: application/json
-  text: ""
+body: {}
 parameters: []
 headers:
-  - name: Content-Type
-    value: application/json
   - name: User-Agent
     value: insomnium/0.2.3-a
-authentication:
-  type: bearer
-  prefix: bearer
-  token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+authentication: {}
+metaSortKey: -1703332570472
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

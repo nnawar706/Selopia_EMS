@@ -1,10 +1,10 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_5b032635f907404b836b7b9ecc46977a
 type: Request
-parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703401596992
-created: 1703045958641
-url: "{{ _.host }}/events/get/6"
-name: read
+parentId: fld_5faf0a3668bb47f0a25510665b92090f
+modified: 1703405970316
+created: 1703405462731
+url: "{{ _.host }}/treasures/change_status/18"
+name: change-status
 description: ""
 method: GET
 body:
@@ -20,7 +20,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+metaSortKey: -1703120965785
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

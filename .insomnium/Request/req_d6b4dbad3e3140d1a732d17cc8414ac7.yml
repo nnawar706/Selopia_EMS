@@ -1,7 +1,7 @@
 _id: req_d6b4dbad3e3140d1a732d17cc8414ac7
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703056724118
+modified: 1703403060900
 created: 1702989844852
 url: "{{ _.host }}/events/create"
 name: store
@@ -11,12 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"event_category_id": 5,
-    	"lead_user_id": 1,
-    	"title": "New Year Party",
+    	"event_category_id": 3,
+    	"lead_user_id": 2,
+    	"title": "Riyad bhaiy's Party",
     	"detail": "Event description",
-    	"from_date": "2024-01-01",
-    	"participants": [1,2,3,4,5,6,8,11,12,13],
+    	"from_date": "2023-12-31 10:00",
+    	"participants": [2,3],
     	"designation_gradings":[
     		{"designation_id": 1, "amount": 1500},
     		{"designation_id": 2, "amount": 1200},

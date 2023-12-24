@@ -1,10 +1,10 @@
-_id: req_3336cf9fa3764d7a982a991d405ef015
+_id: req_58f531ae36a746d5adca240c3d488101
 type: Request
-parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703332578205
-created: 1703332570472
-url: "{{ _.host }}/test"
-name: New Request
+parentId: fld_a52be1b2b64a4faab0f2f81fc074ecf8
+modified: 1703340252829
+created: 1703340240607
+url: "{{ _.host }}/users/get/5"
+name: get
 description: ""
 method: GET
 body: {}
@@ -12,8 +12,11 @@ parameters: []
 headers:
   - name: User-Agent
     value: insomnium/0.2.3-a
-authentication: {}
-metaSortKey: -1703332570472
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702985928726.875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

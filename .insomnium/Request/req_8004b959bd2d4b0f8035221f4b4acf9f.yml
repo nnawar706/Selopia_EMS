@@ -1,15 +1,18 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_8004b959bd2d4b0f8035221f4b4acf9f
 type: Request
-parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703401596992
-created: 1703045958641
-url: "{{ _.host }}/events/get/6"
-name: read
+parentId: fld_05103086d649458f8a6d202b828c6315
+modified: 1703420827553
+created: 1703420691376
+url: "{{ _.host }}/user_loans/update_status/1"
+name: update-status
 description: ""
-method: GET
+method: PUT
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"status": 2
+    }
 parameters: []
 headers:
   - name: Content-Type
@@ -20,7 +23,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+metaSortKey: -1703397199469.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

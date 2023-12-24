@@ -1,0 +1,43 @@
+_id: req_9be2a5529c634813bb74b0af1d2714e6
+type: Request
+parentId: fld_52cb044b8d8f4c239788c0c49de7e4cf
+modified: 1703409492261
+created: 1703409194768
+url: "{{ _.host }}/expense_categories/update/3"
+name: update
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_fd81f7fa3f3b4f0daa99b48db9378f36
+      name: name
+      value: Birthday Celebration!!
+      description: ""
+    - id: pair_3d8c2ba65643405e991fd4b7f53edc8c
+      name: icon
+      value: ""
+      description: ""
+      disabled: true
+      type: file
+      fileName: /home/selopia/Pictures/Screenshots/Screenshot from 2023-12-19
+        10-58-56.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702976079110.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

@@ -1,9 +1,9 @@
 _id: req_650a1117ffec405a96585eaf7a0fee9c
 type: Request
 parentId: fld_5faf0a3668bb47f0a25510665b92090f
-modified: 1703338773307
+modified: 1703405863795
 created: 1703331485433
-url: "{{ _.host }}/treasurers/create"
+url: "{{ _.host }}/treasures/create"
 name: create
 description: ""
 method: POST

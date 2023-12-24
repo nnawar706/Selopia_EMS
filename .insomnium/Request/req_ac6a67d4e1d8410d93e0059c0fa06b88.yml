@@ -1,10 +1,10 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_ac6a67d4e1d8410d93e0059c0fa06b88
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703401596992
-created: 1703045958641
-url: "{{ _.host }}/events/get/6"
-name: read
+modified: 1703401198518
+created: 1703401178315
+url: "{{ _.host }}/events/participants/6"
+name: participant-list
 description: ""
 method: GET
 body:
@@ -20,7 +20,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+metaSortKey: -1702988309534.6875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

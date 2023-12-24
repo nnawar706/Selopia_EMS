@@ -1,15 +1,18 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_319d1582a31a4a13bad0a4e221af7192
 type: Request
-parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703401596992
-created: 1703045958641
-url: "{{ _.host }}/events/get/6"
-name: read
+parentId: fld_05103086d649458f8a6d202b828c6315
+modified: 1703420779118
+created: 1703420769930
+url: "{{ _.host }}/user_loans/delete/1"
+name: delete
 description: ""
-method: GET
+method: DELETE
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"status": 1
+    }
 parameters: []
 headers:
   - name: Content-Type
@@ -20,7 +23,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+metaSortKey: -1703380770960.1875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_2f8ecf427f0444c58677d802ccb3923a
 type: Request
 parentId: fld_05103086d649458f8a6d202b828c6315
-modified: 1703420754950
+modified: 1703595992606
 created: 1703420747600
 url: "{{ _.host }}/user_loans/all"
 name: get-all
@@ -9,10 +9,7 @@ description: ""
 method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"status": 1
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type

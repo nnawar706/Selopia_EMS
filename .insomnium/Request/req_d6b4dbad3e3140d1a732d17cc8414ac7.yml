@@ -1,7 +1,7 @@
 _id: req_d6b4dbad3e3140d1a732d17cc8414ac7
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703403060900
+modified: 1703590000757
 created: 1702989844852
 url: "{{ _.host }}/events/create"
 name: store
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"event_category_id": 3,
-    	"lead_user_id": 2,
+    	"lead_user_id": 3,
     	"title": "Riyad bhaiy's Party",
     	"detail": "Event description",
     	"from_date": "2023-12-31 10:00",

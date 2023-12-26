@@ -1,9 +1,9 @@
 _id: req_8004b959bd2d4b0f8035221f4b4acf9f
 type: Request
 parentId: fld_05103086d649458f8a6d202b828c6315
-modified: 1703420827553
+modified: 1703597019523
 created: 1703420691376
-url: "{{ _.host }}/user_loans/update_status/1"
+url: "{{ _.host }}/user_loans/update_status/6"
 name: update-status
 description: ""
 method: PUT
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"status": 2
+    	"status": 1
     }
 parameters: []
 headers:

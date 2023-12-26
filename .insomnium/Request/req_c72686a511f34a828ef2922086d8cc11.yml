@@ -1,20 +1,15 @@
-_id: req_b692cced9bf343bfa2b40912b9080da8
+_id: req_c72686a511f34a828ef2922086d8cc11
 type: Request
-parentId: fld_05103086d649458f8a6d202b828c6315
-modified: 1703596982709
-created: 1703419141290
-url: "{{ _.host }}/user_loans/create"
-name: store
+parentId: fld_f2e97c0f31cf4673aecdd01f3d332b46
+modified: 1703593770832
+created: 1703593115815
+url: "{{ _.host }}/expenses/get/1"
+name: read
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"selected_user_id": 3,
-    	"amount": 10,
-    	"type": 1
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -25,7 +20,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1703375294790.5
+metaSortKey: -1702991999453.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_27899acff21c4040a0227afb1b031a5d
 type: Request
 parentId: fld_f2e97c0f31cf4673aecdd01f3d332b46
-modified: 1703408599818
+modified: 1703584041311
 created: 1702992717654
 url: "{{ _.host }}/expenses/create"
 name: store
@@ -12,14 +12,13 @@ body:
   text: |-
     {
     	"event_id": 10,
-    	"expense_category_id": 6,
-    	"title": "KFC",
-    	"unit_cost": 350,
+    	"expense_category_id": 1,
+    	"title": "Mojo",
+    	"unit_cost": 35,
     	"quantity": 3,
     	"bearers":[
-    		{"user_id": 21, "amount": 350, "is_sponsored": 0},
-    		{"user_id": 20, "amount": 350, "is_sponsored": 0},
-    		{"user_id": 23, "amount": 350, "is_sponsored": 0}
+    		{"user_id": 20, "amount": 70, "is_sponsored": 0},
+    		{"user_id": 23, "amount": 35, "is_sponsored": 0}
     	]
     }
 parameters: []

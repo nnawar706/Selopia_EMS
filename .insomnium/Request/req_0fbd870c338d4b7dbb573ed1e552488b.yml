@@ -1,27 +1,22 @@
-_id: req_8c3c10bfe8af4f76b89eb80949bbfc0c
+_id: req_0fbd870c338d4b7dbb573ed1e552488b
 type: Request
 parentId: fld_837612004e144d42b0367d2065310576
-modified: 1703569748401
-created: 1702975492478
-url: "{{ _.host }}/login"
-name: login
+modified: 1703572429701
+created: 1703572420458
+url: "{{ _.host }}/notifications/all"
+name: notifications
 description: ""
-method: POST
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"phone_no": "01700000000",
-    	"password": "123456"
-    }
+method: GET
+body: {}
 parameters: []
 headers:
-  - name: Content-Type
-    value: application/json
   - name: User-Agent
     value: insomnium/0.2.3-a
-authentication: {}
-metaSortKey: -1702975492478
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702979407973
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,24 @@
+_id: req_41dc08777af9417a9085aaf1dab34c98
+type: Request
+parentId: wrk_0b273a5da7324364b464293e64be45bb
+modified: 1703423747821
+created: 1703423728274
+url: "{{ _.host }}/refresh_system"
+name: refresh-project
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication: {}
+metaSortKey: -1703423728274
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

@@ -1,0 +1,31 @@
+_id: req_12e160e6c1a74074a0101c339c9f2b34
+type: Request
+parentId: fld_837612004e144d42b0367d2065310576
+modified: 1703572512409
+created: 1703572460958
+url: "{{ _.host }}/notifications/mark_as_read"
+name: read-notifications
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_61ad452a19dd463993c6acb4969a8e8b
+    name: id
+    value: 81718ff0-771b-4387-8894-beae3503e597
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnium/0.2.3-a
+authentication:
+  type: bearer
+  prefix: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1702979135623.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
+segmentParams: []

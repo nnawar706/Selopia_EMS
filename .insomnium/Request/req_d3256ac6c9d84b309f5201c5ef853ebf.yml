@@ -1,10 +1,10 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_d3256ac6c9d84b309f5201c5ef853ebf
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1704169740892
-created: 1703045958641
-url: "{{ _.host }}/events/get/21"
-name: read
+modified: 1704168374408
+created: 1704168318513
+url: "{{ _.host }}/events/designation_gradings/18"
+name: designation-gradings
 description: ""
 method: GET
 body:
@@ -20,7 +20,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+metaSortKey: -1702988394830.0938
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

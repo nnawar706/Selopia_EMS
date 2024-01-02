@@ -1,7 +1,7 @@
 _id: req_fa70abd4001b44dda8418e26126a103a
 type: Request
 parentId: fld_a52be1b2b64a4faab0f2f81fc074ecf8
-modified: 1703063658954
+modified: 1704088555530
 created: 1702987115399
 url: "{{ _.host }}/users/create"
 name: store
@@ -16,7 +16,7 @@ body:
       description: ""
     - id: pair_f7f2a044f3e3417c95bf6aa173ff7137
       name: name
-      value: Miti
+      value: nafisa
       description: ""
     - id: pair_b52328012f5e4e9fbe4acc4217ddd9ce
       name: phone_no

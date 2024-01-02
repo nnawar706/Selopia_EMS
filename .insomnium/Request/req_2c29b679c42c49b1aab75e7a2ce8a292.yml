@@ -1,9 +1,9 @@
 _id: req_2c29b679c42c49b1aab75e7a2ce8a292
 type: Request
 parentId: fld_f2e97c0f31cf4673aecdd01f3d332b46
-modified: 1703581550118
+modified: 1704106071825
 created: 1703072597677
-url: "{{ _.host }}/expenses/update/8"
+url: "{{ _.host }}/expenses/update/11"
 name: update
 description: ""
 method: PUT
@@ -11,17 +11,17 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"event_id": 10,
+    	"event_id": 18,
     	"expense_category_id": 1,
     	"title": "Water",
     	"unit_cost": 35,
     	"quantity": 3,
     	"bearers":[
-    		{"user_id": 20, "amount": 70, "is_sponsored": 0},
-    		{"user_id": 23, "amount": 35, "is_sponsored": 0}
+    		{"user_id": 3, "amount": 70, "is_sponsored": 0},
+    		{"user_id": 6, "amount": 35, "is_sponsored": 0}
     	],
     	"payers":[
-    		{"user_id": 23, "amount": 105}
+    		{"user_id": 6, "amount": 105}
     	]
     }
 parameters: []

@@ -1,26 +1,22 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_8e0546146d214fd8926637f29da551bf
 type: Request
-parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1704169740892
-created: 1703045958641
-url: "{{ _.host }}/events/get/21"
-name: read
+parentId: fld_837612004e144d42b0367d2065310576
+modified: 1703669660405
+created: 1703669648524
+url: "{{ _.host }}/pusher/beams_auth"
+name: beams-token
 description: ""
 method: GET
-body:
-  mimeType: application/json
-  text: ""
+body: {}
 parameters: []
 headers:
-  - name: Content-Type
-    value: application/json
   - name: User-Agent
     value: insomnium/0.2.3-a
 authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+metaSortKey: -1702975509838.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

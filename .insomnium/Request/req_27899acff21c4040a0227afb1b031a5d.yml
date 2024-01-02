@@ -1,7 +1,7 @@
 _id: req_27899acff21c4040a0227afb1b031a5d
 type: Request
 parentId: fld_f2e97c0f31cf4673aecdd01f3d332b46
-modified: 1703584041311
+modified: 1704107926167
 created: 1702992717654
 url: "{{ _.host }}/expenses/create"
 name: store
@@ -11,14 +11,19 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"event_id": 10,
+    	"event_id": 18,
     	"expense_category_id": 1,
-    	"title": "Mojo",
-    	"unit_cost": 35,
-    	"quantity": 3,
+    	"title": "Firni",
+    	"unit_cost": 80,
+    	"quantity": 6,
     	"bearers":[
-    		{"user_id": 20, "amount": 70, "is_sponsored": 0},
-    		{"user_id": 23, "amount": 35, "is_sponsored": 0}
+    		{"user_id": 3, "amount": 80, "is_sponsored": 0},
+    		{"user_id": 8, "amount": 80, "is_sponsored": 0},
+    		{"user_id": 9, "amount": 160, "is_sponsored": 0},
+    		{"user_id": 1, "amount": 160, "is_sponsored": 0}
+    	],
+    	"payers":[
+    		{"user_id": 3, "amount": 480}
     	]
     }
 parameters: []

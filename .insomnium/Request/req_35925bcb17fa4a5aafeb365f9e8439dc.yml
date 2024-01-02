@@ -1,9 +1,9 @@
 _id: req_35925bcb17fa4a5aafeb365f9e8439dc
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703148623986
+modified: 1703756101919
 created: 1703147144025
-url: "{{ _.host }}/events/remove_participants/2"
+url: "{{ _.host }}/events/remove_participants/12"
 name: remove-participants
 description: ""
 method: PUT
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"user_id": 1
+    	"user_id": 10
     }
 parameters: []
 headers:

@@ -1,7 +1,7 @@
 _id: req_d6b4dbad3e3140d1a732d17cc8414ac7
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703590000757
+modified: 1704105785538
 created: 1702989844852
 url: "{{ _.host }}/events/create"
 name: store
@@ -11,18 +11,18 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"event_category_id": 3,
+    	"event_category_id": 7,
     	"lead_user_id": 3,
-    	"title": "Riyad bhaiy's Party",
+    	"title": "Kacchi Party",
     	"detail": "Event description",
-    	"from_date": "2023-12-31 10:00",
-    	"participants": [2,3],
+    	"from_date": "2024-01-02 18:00",
+    	"participants": [3,4,6,8,9],
     	"designation_gradings":[
-    		{"designation_id": 1, "amount": 1500},
-    		{"designation_id": 2, "amount": 1200},
-    		{"designation_id": 3, "amount": 1000},
-    		{"designation_id": 4, "amount": 700},
-    		{"designation_id": 5, "amount": 500}
+    		{"designation_id": 1, "amount": 1000},
+    		{"designation_id": 2, "amount": 800},
+    		{"designation_id": 3, "amount": 600},
+    		{"designation_id": 4, "amount": 400},
+    		{"designation_id": 5, "amount": 200}
     	]
     }
 parameters: []

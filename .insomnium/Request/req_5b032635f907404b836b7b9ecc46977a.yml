@@ -1,9 +1,9 @@
 _id: req_5b032635f907404b836b7b9ecc46977a
 type: Request
 parentId: fld_5faf0a3668bb47f0a25510665b92090f
-modified: 1703405970316
+modified: 1703764239540
 created: 1703405462731
-url: "{{ _.host }}/treasures/change_status/18"
+url: "{{ _.host }}/treasures/change_status/4"
 name: change-status
 description: ""
 method: GET

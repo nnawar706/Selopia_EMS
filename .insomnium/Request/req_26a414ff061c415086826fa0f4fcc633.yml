@@ -1,9 +1,9 @@
 _id: req_26a414ff061c415086826fa0f4fcc633
 type: Request
 parentId: fld_f2e97c0f31cf4673aecdd01f3d332b46
-modified: 1703305809397
+modified: 1703765714960
 created: 1703305792217
-url: "{{ _.host }}/expenses/delete/1"
+url: "{{ _.host }}/expenses/delete/10"
 name: delete
 description: ""
 method: DELETE

@@ -1,26 +1,26 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_8ea2930051fb4571946852067d71a5eb
 type: Request
-parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1704169740892
-created: 1703045958641
-url: "{{ _.host }}/events/get/21"
-name: read
+parentId: fld_837612004e144d42b0367d2065310576
+modified: 1703766944755
+created: 1703766925855
+url: "{{ _.host }}/unread_notifications_count"
+name: notification-count
 description: ""
 method: GET
-body:
-  mimeType: application/json
-  text: ""
-parameters: []
+body: {}
+parameters:
+  - id: pair_bd8deee5fe84471699bc209a66a48938
+    name: page
+    value: "1"
+    description: ""
 headers:
-  - name: Content-Type
-    value: application/json
   - name: User-Agent
     value: insomnium/0.2.3-a
 authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+metaSortKey: -1702979271798.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

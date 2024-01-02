@@ -1,14 +1,18 @@
 _id: req_0fbd870c338d4b7dbb573ed1e552488b
 type: Request
 parentId: fld_837612004e144d42b0367d2065310576
-modified: 1703572429701
+modified: 1703741261012
 created: 1703572420458
 url: "{{ _.host }}/notifications/all"
 name: notifications
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_bd8deee5fe84471699bc209a66a48938
+    name: page
+    value: "1"
+    description: ""
 headers:
   - name: User-Agent
     value: insomnium/0.2.3-a

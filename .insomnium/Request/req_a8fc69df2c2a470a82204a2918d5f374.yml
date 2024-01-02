@@ -1,9 +1,9 @@
 _id: req_a8fc69df2c2a470a82204a2918d5f374
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1703147128685
+modified: 1703756025615
 created: 1703071819989
-url: "{{ _.host }}/events/add_participants/2"
+url: "{{ _.host }}/events/add_participants/12"
 name: add-participants
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"users": [2]
+    	"users": [10]
     }
 parameters: []
 headers:

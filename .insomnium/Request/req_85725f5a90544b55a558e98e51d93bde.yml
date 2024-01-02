@@ -1,14 +1,19 @@
 _id: req_85725f5a90544b55a558e98e51d93bde
 type: Request
 parentId: fld_a52be1b2b64a4faab0f2f81fc074ecf8
-modified: 1702986806493
+modified: 1703754469468
 created: 1702986782449
 url: "{{ _.host }}/users/all"
 name: get-all
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_d4fcefcf4be04533ab9a519bc73d9f1b
+    name: status
+    value: "true"
+    description: ""
+    disabled: false
 headers:
   - name: User-Agent
     value: insomnium/0.2.3-a

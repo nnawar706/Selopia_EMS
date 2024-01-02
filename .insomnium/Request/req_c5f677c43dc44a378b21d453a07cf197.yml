@@ -1,26 +1,23 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_c5f677c43dc44a378b21d453a07cf197
 type: Request
-parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1704169740892
-created: 1703045958641
-url: "{{ _.host }}/events/get/21"
-name: read
+parentId: fld_52cb044b8d8f4c239788c0c49de7e4cf
+modified: 1704088483387
+created: 1704088465475
+url: "{{ _.host }}/expense_categories/delete/16"
+name: delete
 description: ""
-method: GET
-body:
-  mimeType: application/json
-  text: ""
+method: DELETE
+body: {}
 parameters: []
 headers:
-  - name: Content-Type
-    value: application/json
   - name: User-Agent
     value: insomnium/0.2.3-a
 authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+  disabled: false
+metaSortKey: -1702977703260.7812
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,10 +1,10 @@
-_id: req_9f3f7fcd7a4344a683741267e4e8b042
+_id: req_a7092347f70d47c1a6fc56c4d6733b34
 type: Request
 parentId: fld_1afe94ccf5884191b7046517a28cee8b
-modified: 1704169740892
-created: 1703045958641
-url: "{{ _.host }}/events/get/21"
-name: read
+modified: 1703674103574
+created: 1703673882251
+url: "{{ _.host }}/events/pending_events"
+name: get-locked-events
 description: ""
 method: GET
 body:
@@ -20,7 +20,7 @@ authentication:
   type: bearer
   prefix: bearer
   token: "{{ _.token }}"
-metaSortKey: -1702988480125.5
+metaSortKey: -1702987627171.4375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_c526f35418574f6c862a05cfb27fe1a6
 type: Request
 parentId: fld_05103086d649458f8a6d202b828c6315
-modified: 1703596748208
+modified: 1703656959931
 created: 1703595976725
 url: "{{ _.host }}/user_loans/summary"
 name: summary
@@ -15,7 +15,7 @@ parameters:
     name: user_id
     value: "5"
     description: ""
-    disabled: true
+    disabled: false
 headers:
   - name: Content-Type
     value: application/json
